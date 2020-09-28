@@ -12,8 +12,10 @@ public class EmailAddress {
 
 		System.out.println("Please enter your first name.");
 		String firstName = keyboard.nextLine();
+		firstName = (firstName.toUpperCase());
 		System.out.println("Please enter your middle name.");
 		String middleName = keyboard.nextLine();
+		middleName = (middleName.toUpperCase());
 		System.out.println("Please enter your last name.");
 		String lastName = keyboard.nextLine();
 		System.out.println("Please enter your birthday(mm-dd-yyyy).");
