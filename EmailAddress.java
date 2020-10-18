@@ -20,6 +20,8 @@ public class EmailAddress {
 		String lastName = keyboard.nextLine();
 		System.out.println("Please enter your birthday(mm-dd-yyyy).");
 		String birthday = keyboard.nextLine();
+		//This is a good spot to separate user input from output
+		//Delineating using whitespace is a good indicator of what code can be refactored into a method (or function)
 		System.out.print("Email: ");
 		System.out.print(lastName.toLowerCase());
 		System.out.print(firstName.substring(0,1) + middleName.substring(0,1));
@@ -30,3 +32,4 @@ public class EmailAddress {
 	}
 
 }
+//Great. I would use white space to break up parts of my code, though.
